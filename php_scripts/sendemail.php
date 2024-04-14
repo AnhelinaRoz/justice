@@ -4,26 +4,35 @@ $lastname = $_POST["lastname"];
 $email = $_POST["email"];
 $number = $_POST["number"];
 $message = $_POST["message"];
-//$ = $_POST[""];
-//$ = $_POST[""];
 
 $to = "rozkovanangelina@gmail.com";
 $subject = "Email from the website";
+
 $message = "
-<p>$firstname</p>
-<p>$lastname</p>
-<p>$email</p>
-<p>$number</p>
-<p>$message</p>
+<html>
+<head>
+<title>Email from the website</title>
+</head>
+<body>
+<p>Firstname: $firstname</p>
+<p>Lastname: $lastname</p>
+<p>Email: $email</p>
+<p>Number: $number</p>
+<p>Message: $message</p>
+</body>
+</html>
 ";
-$headers = "From: sender@example.com" . "\r\n" .
+
+$headers = "MIME-Version: 1.0" . "\r\n";
+$headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
+$headers .= "From: sender@example.com" . "\r\n" .
     "Reply-To: sender@example.com" . "\r\n" .
     "X-Mailer: PHP/" . phpversion();
 
-// Отправка
+
 $mailSent = mail($to, $subject, $message, $headers);
 
-// Проверка успешности отправки
+
 if($mailSent) {
     echo "Сообщение успешно отправлено!";
 } else {

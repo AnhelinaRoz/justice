@@ -33,9 +33,5 @@ $headers .= "From: sender@example.com" . "\r\n" .
 $mailSent = mail($to, $subject, $message, $headers);
 
 
-if($mailSent) {
-    echo "Сообщение успешно отправлено!";
-} else {
-    echo "Ошибка при отправке сообщения.";
-}
+header("Location: ../index.html");
 ?>

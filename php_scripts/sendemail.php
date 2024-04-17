@@ -3,6 +3,8 @@ $firstname = $_POST["firstname"];
 $lastname = $_POST["lastname"];
 $email = $_POST["email"];
 $number = $_POST["number"];
+$place = $_POST["place"];
+$position = $_POST["position"];
 $message = $_POST["message"];
 
 $to = "rozkovanangelina@gmail.com";
@@ -18,6 +20,8 @@ $message = "
 <p>Lastname: $lastname</p>
 <p>Email: $email</p>
 <p>Number: $number</p>
+<p>Place: $place</p>
+<p>Position: $position</p>
 <p>Message: $message</p>
 </body>
 </html>

@@ -7,7 +7,7 @@ $place = $_POST["place"];
 $position = $_POST["position"];
 $message = $_POST["message"];
 
-$to = "rozkovanangelina@gmail.com";
+$to = "sharof.azizov@jpti.ch";
 $subject = "Email from the website";
 
 $message = "

@@ -230,6 +230,21 @@
             </div>
         </div>
     </section>
+    <section class="take_action" id="take_action">
+        <div class="content">
+            <h3>Take Action</h3>
+            <form action="php_scripts/sendemail.php" method="post">
+                <input required placeholder="First name" name="firstname" type="text">
+                <input required placeholder="Last name" name="lastname" type="text">
+                <input required placeholder="Your email" name="email" type="email">
+                <input placeholder="Phone number" name="number" type="text">
+                <input required placeholder="Place of employment" name="place" type="text">
+                <input required placeholder="Position" name="position" type="text">
+                <textarea name="message" id="" cols="30" rows="10"></textarea>
+                <button type="send">Send</button>
+            </form>
+        </div>
+    </section>
 </main>
 </body>
 <script src="js/script.js"></script>

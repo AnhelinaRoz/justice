@@ -50,7 +50,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .header {
-    background-color: #2a4360;
+    background-color: #001D3B;
     height: 100vh;
     display: grid;
     grid-template-rows: auto 1fr;
@@ -135,7 +135,7 @@ body::-webkit-scrollbar-thumb {
 .dropdown_content {
     display: none;
     position: absolute;
-    background-color: #2a4360;
+    background-color: #001D3B;
     min-width: 200px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
@@ -377,4 +377,80 @@ body::-webkit-scrollbar-thumb {
     .p{
         margin-bottom: 30px;
     }
+}
+.take_action{
+    background-color: #001D3B;
+    margin-top: 51px;
+padding: 84px;
+}
+.take_action input, .take_action textarea{
+    display: block;
+    width: 550px;
+    height: 50px;
+    margin: auto;
+    margin-bottom: 24px;
+    padding: 5px 20px;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+}
+.take_action textarea{
+    height: 317px;
+    padding-top: 15px;
+}
+.take_action .h2{
+    color: white;
+    text-align: center;
+    font-size: 37px;
+    margin-bottom: 63px;
+}
+.take_action .button_wrapper{
+text-align: center;
+}
+.take_action button{
+    padding: 9px 42px;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+}
+.press_release h2{
+    font-size: 75px;
+}
+.press_release h4{
+    display: -webkit-box;
+-webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.press_release{
+     padding: 80px 144px; 
+}
+.press_release .spisok{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 30px;
+}
+.press_release .img{
+height: 373px;
+width: 282px;
+}
+.press_release p{
+    font-size: 15px;
+    padding-bottom: 5px;
+}
+.press_release .hr{
+height: 2px;
+background-color: black;
+margin-top: 27px;
+margin-bottom: 32px;
+}
+.press_release a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+.press_release a img{
+height: 18px;
+margin-left: 15px;
 }

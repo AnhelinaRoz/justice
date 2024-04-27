@@ -1,0 +1,22 @@
+@font-face {
+    font-family: "Athelas";
+    src: url("Athelas-Bold.ttf");
+    font-weight: bold;
+}
+@font-face {
+    font-family: "Athelas";
+    src: url("Athelas-BoldItalic.ttf");
+    font-weight: bold;
+    font-style: italic;
+}
+@font-face {
+    font-family: "Athelas";
+    src: url("Athelas-Italic.ttf");
+    font-weight: 400;
+    font-style: italic;
+}
+@font-face {
+    font-family: "Athelas";
+    src: url("Athelas-Regular.ttf");
+    font-weight: 400;
+}

@@ -1,0 +1,36 @@
+@font-face {
+    font-family: "BebasNeue";
+    src: url("BebasNeue Bold.ttf") format("truetype"), url("BebasNeue Bold.otf") format("opentype");
+    font-weight: bold;
+}
+
+/*@font-face {*/
+/*    font-family: "BebasNeue";*/
+/*    src: url("BebasNeue BoldItalic.ttf") format("truetype"), url("BebasNeue BoldItalic.otf") format("opentype");*/
+/*    font-weight: bold;*/
+/*    font-style: italic;*/
+/*}*/
+
+@font-face {
+    font-family: "BebasNeue";
+    src: url("BebasNeue Book.ttf") format("truetype"), url("BebasNeue Book.otf") format("opentype");
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "BebasNeue";
+    src: url("BebasNeue Light.ttf") format("truetype"), url("BebasNeue Light.otf") format("opentype");
+    font-weight: light;
+}
+
+@font-face {
+    font-family: "BebasNeue";
+    src: url("BebasNeue Regular.ttf") format("truetype"), url("BebasNeue Regular.otf") format("opentype");
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "BebasNeue";
+    src: url("BebasNeue Thin.ttf") format("truetype"), url("BebasNeueThin.otf") format("opentype");
+    font-weight: 100;
+}

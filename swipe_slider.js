@@ -1,3 +1,4 @@
+// import Swiper from "swiper";
 
 var swiper = new Swiper(".mySwiper", {
     slidesPerView: 1,
@@ -13,11 +14,13 @@ var swiper = new Swiper(".mySwiper", {
     // },
 });
 var swiper2 = new Swiper(".mySwiper_img", {
-    slidesPerView: 1,
+    slidesPerView: 2,
+    spaceBetween: 33,
+    freeMode: true,
     loop: true,
+    speed: 2500,
     autoplay: {
-
-        delay: 2500,
+        delay: 0,
         disableOnInteraction: false,
     },
     // navigation: {

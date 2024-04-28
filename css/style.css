@@ -6,7 +6,9 @@
     box-sizing: border-box;
     color: inherit;
 }
-
+:root{
+    --padding_blocs: 141px;
+}
 .nodisplay {
     display: none;
 }
@@ -47,7 +49,7 @@ a {
 }
 
 .content {
-    padding: 0 141px;
+    padding: 0 var(--padding_blocs);
     margin: auto;
 
 }
@@ -215,7 +217,7 @@ body::-webkit-scrollbar-thumb {
 
 /*--------*/
 .about {
-    padding: 134px 144px 86px;
+    padding: 134px var(--padding_blocs) 86px;
     background: #001D3B;
     color: white;
 
@@ -237,7 +239,7 @@ body::-webkit-scrollbar-thumb {
         gap: 57px;
 
         .slider {
-            width: calc(50vw - 288px);
+            width: calc(50vw - (var(--padding_blocs) * 2));
         }
 
         .hr {
@@ -395,7 +397,7 @@ body::-webkit-scrollbar-thumb {
     }
 
     > :nth-child(1) {
-        padding-left: 144px;
+        padding-left: var(--padding_blocs);
         padding-right: 184px;
 
     }
@@ -428,13 +430,13 @@ body::-webkit-scrollbar-thumb {
 .petitions {
     display: flex;
     justify-content: space-between;
-    padding-left: 144px;
+    padding-left: var(--padding_blocs);
     flex-wrap: nowrap;
 
     .slider {
         max-width: 70%;
         padding: 108px 103px;
-        padding-right: 220px;
+        padding-right: var(--padding_blocs);
         background: #001D3B;
         color: white;
     }
@@ -513,7 +515,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .press_release {
-    padding: 64px 144px 0;
+    padding: 64px var(--padding_blocs) 0;
 }
 
 .press_release .spisok {
@@ -551,7 +553,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .events {
-    padding: 64px 141px;
+    padding: 64px var(--padding_blocs);
 
     .h2 {
         font-size: 75px;
@@ -599,7 +601,7 @@ body::-webkit-scrollbar-thumb {
 .footer {
     background: #001D3B;
     color: white;
-    padding: 73px 141px 0;
+    padding: 73px var(--padding_blocs) 0;
 
     .content_item {
         display: grid;
@@ -656,7 +658,58 @@ body::-webkit-scrollbar-thumb {
     }
 
     body {
-        background: pink;
+    }
+}
+
+@media screen and (max-width:1160px) {
+   :root{
+       --padding_blocs: 90px;
+   }
+}
+@media screen and (max-width:1000px) {
+   :root{
+       --padding_blocs: 70px;
+   }
+    .about {
+        .hr, .img {
+            display: none;
+        }
+        .content_item{
+            display: block;
+            .slider{
+                width: 100%;
+            }
+        }
+    }
+}
+@media screen and (max-width:900px) {
+   :root{
+       --padding_blocs: 40px;
+   }
+    .team {
+        & .card {
+            &.first {
+                gap: 70px;
+            }
+        }
+    }
+}
+@media screen and (max-width:650px) {
+   :root{
+       --padding_blocs: 18px;
+   }
+}
+@media screen and (max-width:780px) {
+    .team {
+        & .card {
+            &.first {
+                .img {
+                    height: 340px;
+                    width: 263px;
+
+                }
+            }
+        }
     }
 }
 
@@ -668,6 +721,25 @@ body::-webkit-scrollbar-thumb {
     .header .header_content .text .button {
         font-size: 30px;
         padding: 10px 40px;
+    }
+    .team img{
+        object-position: top;
+    }
+    .team {
+        .card.team_1 .img{
+            width: 100%;
+            height: 400px;
+        }
+        .card .img{
+            width: 100%;
+            height: 400px;
+        }
+        .team_1, .team_3 {
+            flex-direction: column-reverse;
+        }
+        .team_2 {
+            flex-direction: column;
+        }
     }
 }
 

@@ -42,3 +42,12 @@ var swiper3 = new Swiper(".mySwiper_petitions", {
     //     prevEl: ".swiper-button-prev",
     // },
 });
+var swiper4 = new Swiper(".mySwiper_video", {
+    slidesPerView: 1,
+    loop: true,
+    
+    navigation: {
+        nextEl: ".btn_video_right",
+        prevEl: ".btn_video_left",
+    },
+});

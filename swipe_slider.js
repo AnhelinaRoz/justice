@@ -3,6 +3,7 @@
 var swiper = new Swiper(".mySwiper", {
     slidesPerView: 1,
     loop: true,
+    
     autoplay: {
 
         delay: 2500,
@@ -21,6 +22,20 @@ var swiper2 = new Swiper(".mySwiper_img", {
     speed: 2500,
     autoplay: {
         delay: 0,
+        disableOnInteraction: false,
+    },
+    // navigation: {
+    //     nextEl: ".swiper-button-next",
+    //     prevEl: ".swiper-button-prev",
+    // },
+});
+var swiper3 = new Swiper(".mySwiper_petitions", {
+    slidesPerView: 1,
+    loop: true,
+    
+    autoplay: {
+
+        delay: 2500,
         disableOnInteraction: false,
     },
     // navigation: {

@@ -6,7 +6,9 @@
     box-sizing: border-box;
     color: inherit;
 }
-
+.nodisplay{
+    display: none;
+}
 .img {
     flex-shrink: 0;
 }
@@ -290,14 +292,13 @@ body::-webkit-scrollbar-thumb {
         transition: all 0.3s ease-in-out 0s, visibility 0s;
         --transition: all 0.3s ease-in-out 0s, visibility 0s;
 
+
         &:nth-child(1):hover {
-            background: rgba(169, 116, 2, 0.1);
+            background: rgba(235, 168, 33, 0.1);
         }
-
         &:nth-child(2):hover {
-            background: rgba(158, 169, 2, 0.1);
+            background: rgba(212, 194, 59, 0.1);
         }
-
         &:nth-child(3):hover {
             background: rgba(2, 169, 74, 0.1);
         }
@@ -307,11 +308,11 @@ body::-webkit-scrollbar-thumb {
         }
 
         &:nth-child(5):hover {
-            background: rgba(2, 69, 169, 0.1);
+            background: rgba(111, 2, 169, 0.1);
         }
 
         &:nth-child(6):hover {
-            background: rgba(88, 2, 169, 0.1);
+            background: rgba(234, 36, 105, 0.1);
         }
 
         &:nth-child(7):hover {
@@ -325,12 +326,32 @@ body::-webkit-scrollbar-thumb {
     }
 
     .content_item {
-        background: linear-gradient(45deg, rgb(54, 110, 164), rgb(31, 46, 56));
-        padding: 93px 147px;
-
+        padding: 90px 100px;
+        &.a1{
+            background: linear-gradient(45deg, rgba(235, 168, 33, 0.1), rgb(248, 248, 248));
+        }
+        &.a2{
+            background: linear-gradient(45deg, rgba(235, 168, 33, 0.1), rgb(248, 248, 248));
+        }
+        &.a3{
+            background: linear-gradient(45deg, rgba(2, 169, 74, 0.1), rgb(248, 248, 248));
+        }
+        &.a4{
+            background: linear-gradient(45deg, rgba(235, 168, 33, 0.1), rgb(248, 248, 248));
+        }
+        &.a5{
+            background: linear-gradient(45deg, rgba(235, 168, 33, 0.1), rgb(248, 248, 248));
+        }
+        &.a6{
+            background: linear-gradient(45deg, rgba(169, 2, 2, 0.1), rgb(248, 248, 248));
+        }
         .p {
             font-size: 24px;
             text-align: center;
+            display: none;
+            &.active{
+                display: block;
+            }
         }
     }
 

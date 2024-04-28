@@ -32,7 +32,6 @@ var swiper2 = new Swiper(".mySwiper_img", {
 var swiper3 = new Swiper(".mySwiper_petitions", {
     slidesPerView: 1,
     loop: true,
-    
     autoplay: {
 
         delay: 2500,

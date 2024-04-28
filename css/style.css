@@ -210,6 +210,9 @@ body::-webkit-scrollbar-thumb {
         display: grid;
         grid-template-columns: 1fr auto 1fr;
         gap: 57px;
+        .slider{
+            width: calc(50vw - 288px);
+        }
 
         .hr {
             height: 100%;

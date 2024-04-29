@@ -331,7 +331,7 @@ body::-webkit-scrollbar-thumb {
         }
 
         &:nth-child(2):hover {
-            background: rgba(212, 194, 59, 0.1);
+            background: rgba(237, 217, 66, 0.1);
         }
 
         &:nth-child(3):hover {
@@ -351,7 +351,7 @@ body::-webkit-scrollbar-thumb {
         }
 
         &:nth-child(7):hover {
-            background: rgba(169, 2, 2, 0.1);
+            background: rgba(216, 4, 4, 0.1);
         }
 
         .h3 {
@@ -368,7 +368,7 @@ body::-webkit-scrollbar-thumb {
         }
 
         &.a2 {
-            background: linear-gradient(45deg, rgba(235, 168, 33, 0.1), rgb(248, 248, 248));
+            background: linear-gradient(45deg,rgba(237, 217, 66, 0.1), rgb(248, 248, 248));
         }
 
         &.a3 {
@@ -376,15 +376,18 @@ body::-webkit-scrollbar-thumb {
         }
 
         &.a4 {
-            background: linear-gradient(45deg, rgba(235, 168, 33, 0.1), rgb(248, 248, 248));
+            background: linear-gradient(45deg, rgba(2, 124, 169, 0.1), rgb(248, 248, 248));
         }
 
         &.a5 {
-            background: linear-gradient(45deg, rgba(235, 168, 33, 0.1), rgb(248, 248, 248));
+            background: linear-gradient(45deg, rgba(111, 2, 169, 0.1), rgb(248, 248, 248));
         }
 
         &.a6 {
-            background: linear-gradient(45deg, rgba(169, 2, 2, 0.1), rgb(248, 248, 248));
+            background: linear-gradient(45deg,rgba(234, 36, 105, 0.1), rgb(248, 248, 248));
+        }
+        &.a7 {
+            background: linear-gradient(45deg,rgba(216, 4, 4, 0.1), rgb(248, 248, 248));
         }
 
         .p {

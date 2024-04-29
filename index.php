@@ -3,8 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
@@ -24,59 +23,9 @@
             <div class="logo">
                 <img src="img/logo.png" alt="">
             </div>
-            <ul class="navigation">
-                <li><a href="#home">Home</a></li>
-                <li class="dropdown">
-                    <a href="#about" class="dropbtn">About us</a>
-                    <div class="dropdown_content">
-                        <a href="#association">Association</a>
-                        <a href="#management">Management</a>
-                        <a href="#thematic_priorities">Thematic Priorities</a>
-                        <a href="#team">Team</a>
-                    </div>
-                </li>
-                <li class="dropdown">
-                    <a href="#projects" class="dropbtn">Projects</a>
-                    <div class="dropdown_content">
-                        <a href="#business_human_rights">Business in Human Rights</a>
-                        <a href="#whistleblowers_journalists">Whistleblowers and Journalists</a>
-                        <a href="#human_rights_defenders">Human Rights Defenders</a>
-                        <a href="#equality">Equality</a>
-                        <a href="#police_reform">Police Reform</a>
-                        <a href="#independence_judges_lawyers">Independence of Judges and Lawyers</a>
-                        <a href="#child_rights">Child Rights</a>
-                    </div>
-                </li>
-                <li class="dropdown">
-                    <a href="#petitions" class="dropbtn">Petitions</a>
-                    <div class="dropdown_content">
-                        <a href="#current_petitions">Current Petitions</a>
-                        <a href="#completed_cases">Completed Cases</a>
-                        <a href="#take_action">Take Action</a>
-                    </div>
-                </li>
-                <li class="dropdown">
-                    <a href="#press_release" class="dropbtn">Press Release</a>
-                    <div class="dropdown_content">
-                        <a href="#view_all">View All</a>
-                        <a href="#news">News</a>
-                        <a href="#archive">Archive</a>
-                    </div>
-                </li>
-                <li class="dropdown">
-                    <a href="#events" class="dropbtn">Events</a>
-                    <div class="dropdown_content">
-                        <a href="#statements">Statements</a>
-                        <!--                        <a href="#speeches">Speeches</a>-->
-                        <a href="#conferences">Conferences</a>
-                        <a href="#trainings">Trainings</a>
-                    </div>
-                </li>
-                <li><a href="#contact_us">Contact us</a></li>
-            </ul>
+            <?php include("./components/nav_links.php") ?>
             <div class="donate">
-                <a
-                    href="https://www.gofundme.com/f/defend-the-defenders-freedom-and-justice?member=33198191&sharetype=teams&utm_campaign=p_na+share-sheet&utm_medium=copy_link&utm_source=customer¬">Donate</a>
+                <a href="https://www.gofundme.com/f/defend-the-defenders-freedom-and-justice?member=33198191&sharetype=teams&utm_campaign=p_na+share-sheet&utm_medium=copy_link&utm_source=customer¬">Donate</a>
             </div>
             <div class="burger">
                 <img src="img/Vector.svg" alt="">
@@ -542,11 +491,13 @@
             <div class="burger_nav">
                 <img class="close" src="img/cross.svg" alt="">
             </div>
+            <?php include("./components/nav_links.php") ?>
         </div>
     </div>
-</body>
-<script src="js/script.js"></script>
+    <script src="js/script.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 <script src="swipe_slider.js" type="module"></script>
+</body>
+
 
 </html>

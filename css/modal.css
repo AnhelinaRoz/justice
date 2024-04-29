@@ -1,3 +1,4 @@
+
 .modal_wrapper {
     position: fixed;
     top: 0;
@@ -5,6 +6,10 @@
     right: 0;
     bottom: 0;
     z-index: 100;
+    display: none;
+    &.open{
+        display: block;
+    }
     .bg {
         position: absolute;
         top: 0;
@@ -14,14 +19,52 @@
         background: black;
         opacity: 0.2;
     }
+    .modal{
+        /*display: none;*/
+        transition: 1s;
+
+        &.active{
+            right: 0%;
+            /*display: block;*/
+        }
+    }
     .burger_menu{
         position: absolute;
-        right: 0;
+        right: -100%;
         top: 0;
         background-color: #001d3b;
         width: 100%;
         max-width: 500px;
         height: 100vh;
+        padding: 31px 28px;
 
+        .burger_nav{
+            display: flex;
+            justify-content: right;
+            margin-bottom: 15px;
+        }
+        .navigation{
+            color: white;
+            border-left: 2px solid white;
+            padding-top: 80px;
+            padding-left: 34px;
+            padding-bottom: 80px;
+
+            .a{
+                text-decoration: none;
+                font-size: 18px;
+                font-family: Inter, sans-serif;
+            }
+            .active{
+                text-decoration: underline;
+            }
+            .li{
+                list-style: none;
+                margin-bottom: 11px;
+            }
+            .dropdown_content{
+                display: none;
+            }
+        }
     }
 }

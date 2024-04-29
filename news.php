@@ -34,7 +34,7 @@ $result = CustomQuery("SELECT * FROM `news` WHERE `id` = $id", 1);
     </div>
 </header>
 <main>
-    <section class="content"><div class="content_block"><?= $result['content']?></div></section>
+    <section class="content content_wrapper"><div class="content_block"><?= $result['content']?></div></section>
     <section class="pdf"><?= $result['pdf']?></section>
 </main>
 <?php include_once('components/footer.php') ?>

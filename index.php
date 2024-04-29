@@ -13,6 +13,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="fonts/Athelas/font-athelas.css?<?=date("d-h-i")?>">
     <link rel="stylesheet" href="fonts/Bebasneue/font-bebasneue.css?<?=date("d-h-i")?>">
+    <link rel="stylesheet" href="css/reset.css?<?=date("d-h-i")?>">
+    <link rel="stylesheet" href="css/global.css?<?=date("d-h-i")?>">
     <link rel="stylesheet" href="css/style.css?<?=date("d-h-i")?>">
     <link rel="stylesheet" href="css/modal.css?<?=date("d-h-i")?>">
     <title>Justice for all international</title>
@@ -417,8 +419,9 @@
                     <img src="img/news1.png" alt="">
                 </div>
                 <p>November 2023</p>
-                <h4>The death penalty in Uzbekistan is still shrouded in secrecy after the moratorium in 2004
-                    and complete abolition in 2008</h4>
+                <a href="./news.php?id=1" class="h4">The death penalty in Uzbekistan is still shrouded in secrecy after the moratorium in 2004
+                    and complete abolition in 2008</a>
+
             </div>
             <div class="card c2">
                 <div class="img">
@@ -470,20 +473,7 @@
         </div>
     </section>
 </main>
-<footer class="footer" id="contact_us">
-    <div class="content_item">
-        <img src="img/logo.png" alt="">
-        <div class="">
-            <p class="p">Avenue Louis-Casaï 18, Genève, Geneva 1209, CH</p>
-            <a class="mail" href="mailto:registry@jpti.ch">registry@jpti.ch</a>
-            <a class="local" href=""><img src="img/linkedin.svg" alt=""></a>
-        </div>
-    </div>
-    <div class="corp">
-        <p>Copyright © 2024</p>
-        <p>developed by: <a href="https://dreamsagency.net/">Dreams Agency</a></p>
-    </div>
-</footer>
+<?php include_once('components/footer.php') ?>
 
 <div class="modal_wrapper">
     <div class="bg"></div>

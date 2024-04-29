@@ -1,0 +1,16 @@
+.idea/
+.DS_Store
+/.phpstorm.meta.php
+/.phpstorm.meta.php/
+*.iml
+.idea.vcs.xml
+.vscode/
+/.vscode/settings.json
+/.vscode/tasks.json
+/.vscode/launch.json
+tsconfig.json
+tsconfig.tsbuildinfo
+jsconfig.json
+.eslintrc.js
+.eslintignore
+php_scripts/env.php

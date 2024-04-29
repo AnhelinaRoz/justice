@@ -15,7 +15,7 @@ var swiper = new Swiper(".mySwiper", {
     // },
 });
 var swiper2 = new Swiper(".mySwiper_img", {
-    slidesPerView: 2,
+    slidesPerView: 1,
     spaceBetween: 33,
     freeMode: true,
     loop: true,
@@ -24,6 +24,11 @@ var swiper2 = new Swiper(".mySwiper_img", {
         delay: 0,
         disableOnInteraction: false,
     },
+    breakpoints:{
+        800: {
+            slidesPerView:2
+        }
+    }
     // navigation: {
     //     nextEl: ".swiper-button-next",
     //     prevEl: ".swiper-button-prev",

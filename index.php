@@ -11,10 +11,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="fonts/Athelas/font-athelas.css">
-    <link rel="stylesheet" href="fonts/Bebasneue/font-bebasneue.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/modal.css">
+    <link rel="stylesheet" href="fonts/Athelas/font-athelas.css?<?=date("d-h-i")?>">
+    <link rel="stylesheet" href="fonts/Bebasneue/font-bebasneue.css?<?=date("d-h-i")?>">
+    <link rel="stylesheet" href="css/style.css?<?=date("d-h-i")?>">
+    <link rel="stylesheet" href="css/modal.css?<?=date("d-h-i")?>">
     <title>Justice for all international</title>
 </head>
 
@@ -495,9 +495,9 @@
     </div>
 </div>
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-<script src="js/script.js"></script>
-<script src="js/modal.js"></script>
-<script src="js/swipe_slider.js" type="module"></script>
+<script src="js/script.js?<?=date("d-h-i")?>"></script>
+<script src="js/modal.js?<?=date("d-h-i")?>"></script>
+<script src="js/swipe_slider.js?<?=date("d-h-i")?>" type="module"></script>
 </body>
 
 

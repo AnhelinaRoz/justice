@@ -1,0 +1,27 @@
+.modal_wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 100;
+    .bg {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: black;
+        opacity: 0.2;
+    }
+    .burger_menu{
+        position: absolute;
+        right: 0;
+        top: 0;
+        background-color: #001d3b;
+        width: 100%;
+        max-width: 500px;
+        height: 100vh;
+
+    }
+}

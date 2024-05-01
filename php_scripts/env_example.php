@@ -1,6 +1,5 @@
 <?php
-//template settings site
-$project_name = 'Justice';
+$project_name = 'Justice for all international';
 
 
 $host = "localhost";

@@ -15,6 +15,8 @@ global $data_assets;
         <p>developed by: <a href="https://dreamsagency.net/">Dreams Agency</a></p>
     </div>
 </footer>
+<?php include_once('components/modals.php') ?>
+
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 <script src="./js/modal.js?<?=date("d-h-i")?>"></script>
 <?php

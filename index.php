@@ -404,6 +404,5 @@ $data_assets['js'] = [
     './js/accordion.js',
 ];
 ?>
-<?php include_once('components/modals.php') ?>
 <?php include_once('components/footer.php') ?>
 

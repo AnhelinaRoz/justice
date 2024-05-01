@@ -37,5 +37,5 @@ $headers .= "From: rozkovanangelina@gmail.com" . "\r\n" .
 $mailSent = mail($to, $subject, $message, $headers);
 
 
-header("Location: ../index.html");
+header("Location: ../index.php");
 ?>

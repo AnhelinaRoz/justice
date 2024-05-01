@@ -1,3 +1,6 @@
+<?php
+global $get_projects;
+?>
 <ul class="navigation">
     <li class="li"><a class="a active" href="#home">Home</a></li>
     <li class="dropdown li">
@@ -12,13 +15,17 @@
     <li class="dropdown li">
         <a href="#projects" class="dropbtn a">Projects</a>
         <div class="dropdown_content">
-            <a class="a" href="#business_human_rights">Business in Human Rights</a>
-            <a class="a" href="#whistleblowers_journalists">Whistleblowers and Journalists</a>
-            <a class="a" href="#human_rights_defenders">Human Rights Defenders</a>
-            <a class="a" href="#equality">Equality</a>
-            <a class="a" href="#police_reform">Police Reform</a>
-            <a class="a" href="#independence_judges_lawyers">Independence of Judges and Lawyers</a>
-            <a class="a" href="#child_rights">Child Rights</a>
+            <?php
+
+            foreach ($get_projects as $key => $project) { ?>
+                <a class="a" href="#projects"><?= $project['name'] ?></a>
+            <?php } ?>
+<!--           -->
+<!--            <a class="a" href="#whistleblowers_journalists">Whistleblowers and Journalists</a>-->
+<!--            <a class="a" href="#human_rights_defenders">Human Rights Defenders</a>-->
+<!--            <a class="a" href="#equality">Equality</a>-->
+<!--            <a class="a" href="#independence_judges_lawyers">Independence of Judges and Lawyers</a>-->
+<!--            <a class="a" href="#child_rights">Child Rights</a>-->
         </div>
     </li>
     <li class="dropdown li">

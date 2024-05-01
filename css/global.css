@@ -93,6 +93,39 @@ a {
     }
 }
 
+.pdf-container__wrapper {
+    padding: 0 80px;
+}
+
+.pdf-container {
+    position: relative;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 120px;
+
+
+    .pdf-canvas {
+        width: 100%;
+    }
+
+    .btn {
+        position: absolute;
+        top: 50%;
+        background: none;
+        outline: none;
+        border: none;
+        height: 30px;
+        &.btn_left {
+            transform: translate(calc(-100% - 30px), -50%) rotate(180deg);
+            left: 0;
+        }
+
+        &.btn_right {
+            right: 0;
+            transform: translate(calc(+100% + 30px), -50%);
+        }
+    }
+}
 
 @media screen and (max-width: 1160px) {
     :root {
@@ -110,10 +143,38 @@ a {
     :root {
         --padding_blocs: 40px;
     }
+    .pdf-container .btn{
+        height: 20px;
+    }
 }
 
 @media screen and (max-width: 650px) {
     :root {
         --padding_blocs: 18px;
+    }
+    .pdf-container__wrapper {
+        padding: 0 40px;
+    }
+    .pdf-container {
+        position: relative;
+        max-width: 1000px;
+        margin: auto;
+        margin-bottom: 120px;
+
+
+        .pdf-canvas {
+            width: 100%;
+        }
+
+        .btn {
+
+            &.btn_left {
+                transform: translate(calc(-100% - 10px), -50%) rotate(180deg);
+            }
+
+            &.btn_right {
+                transform: translate(calc(+100% + 10px), -50%);
+            }
+        }
     }
 }

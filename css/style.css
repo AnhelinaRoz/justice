@@ -1,5 +1,3 @@
-
-
 /* body::-webkit-scrollbar {
     width: 12px;
 }
@@ -13,7 +11,9 @@ body::-webkit-scrollbar-thumb {
     border-radius: 20px;
     border: 3px solid white;
 } */
-
+.projects_mobile {
+    display: none;
+}
 .header {
     background-color: #001d3b;
     height: 100vh;
@@ -67,6 +67,7 @@ body::-webkit-scrollbar-thumb {
             }
         }
     }
+
     .navigation {
         list-style: none;
         display: flex;
@@ -86,6 +87,7 @@ body::-webkit-scrollbar-thumb {
         position: relative;
         font-family: "Inter", sans-serif;
     }
+
     .dropdown {
         position: relative;
     }
@@ -157,9 +159,6 @@ body::-webkit-scrollbar-thumb {
 .header .burger {
     display: none;
 }
-
-
-
 
 
 /*--------*/
@@ -313,7 +312,7 @@ body::-webkit-scrollbar-thumb {
         }
 
         &.a2 {
-            background: linear-gradient(45deg,rgba(237, 217, 66, 0.1), rgb(248, 248, 248));
+            background: linear-gradient(45deg, rgba(237, 217, 66, 0.1), rgb(248, 248, 248));
         }
 
         &.a3 {
@@ -329,10 +328,11 @@ body::-webkit-scrollbar-thumb {
         }
 
         &.a6 {
-            background: linear-gradient(45deg,rgba(234, 36, 105, 0.1), rgb(248, 248, 248));
+            background: linear-gradient(45deg, rgba(234, 36, 105, 0.1), rgb(248, 248, 248));
         }
+
         &.a7 {
-            background: linear-gradient(45deg,rgba(216, 4, 4, 0.1), rgb(248, 248, 248));
+            background: linear-gradient(45deg, rgba(216, 4, 4, 0.1), rgb(248, 248, 248));
         }
 
         .p {
@@ -458,7 +458,7 @@ body::-webkit-scrollbar-thumb {
     font-size: 75px;
 }
 
-.press_release h4, .press_release .h4{
+.press_release h4, .press_release .h4 {
     display: -webkit-box;
     -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;
@@ -472,6 +472,8 @@ body::-webkit-scrollbar-thumb {
     padding: 64px var(--padding_blocs) 0;
 }
 
+
+
 .press_release .spisok {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -482,6 +484,7 @@ body::-webkit-scrollbar-thumb {
     height: 373px;
     max-width: 282px;
     width: 100%;
+    display: block;
 }
 
 .press_release p {
@@ -496,13 +499,13 @@ body::-webkit-scrollbar-thumb {
     margin-bottom: 32px;
 }
 
-.press_release a {
+.press_release .read_more {
     display: flex;
     align-items: center;
     text-decoration: none;
 }
 
-.press_release a img {
+.press_release .read_more img {
     height: 18px;
     margin-left: 15px;
 }
@@ -529,7 +532,7 @@ body::-webkit-scrollbar-thumb {
         .btn {
             height: 30px;
             width: 30px;
-           background-size: 30px;
+            background-size: 30px;
             position: absolute;
             top: calc(50% - 10px);
             background-image: url("../img/arrow.svg");
@@ -554,7 +557,6 @@ body::-webkit-scrollbar-thumb {
 }
 
 
-
 @media screen and (max-width: 1000px) {
 
     .header .navigation li,
@@ -569,7 +571,6 @@ body::-webkit-scrollbar-thumb {
     body {
     }
 }
-
 
 
 @media screen and (max-width: 1000px) {
@@ -591,6 +592,9 @@ body::-webkit-scrollbar-thumb {
 
     .projects {
         display: none;
+    }
+    .projects_mobile {
+        display: block;
     }
 }
 
@@ -708,17 +712,19 @@ body::-webkit-scrollbar-thumb {
     .press_release .spisok {
         grid-template-columns: 1fr;
     }
+
     .press_release .img {
         max-width: 100%;
     }
 }
 
 @media screen and (max-width: 450px) {
-    .events .video_wrapper .btn{
+    .events .video_wrapper .btn {
         height: 20px;
         width: 20px;
         background-size: 20px;
-        &.left{
+
+        &.left {
 
             /*transform: translateX(0);*/
             /*z-index: 100;*/

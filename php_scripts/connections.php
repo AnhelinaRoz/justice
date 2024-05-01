@@ -1,6 +1,5 @@
 <?php
 global $host, $login, $password, $bd_name;
-require_once("./php_scripts/env.php");
 $connect = mysqli_connect($host, $login, $password, $bd_name);
 
 if (!$connect) {

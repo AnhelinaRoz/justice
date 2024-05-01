@@ -1,26 +1,16 @@
-<!doctype html>
-<html lang="en">
+<?php
+global $get_projects;
+$data_assets['css'] = [
+    './css/style.css',
+    './css/accordion.css',
+];
+include("./components/header.php");
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+$get_press_release = CustomQuery("SELECT * FROM `news` ORDER BY  `date` DESC LIMIT 4;");
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="fonts/Athelas/font-athelas.css?<?=date("d-h-i")?>">
-    <link rel="stylesheet" href="fonts/Bebasneue/font-bebasneue.css?<?=date("d-h-i")?>">
-    <link rel="stylesheet" href="css/reset.css?<?=date("d-h-i")?>">
-    <link rel="stylesheet" href="css/global.css?<?=date("d-h-i")?>">
-    <link rel="stylesheet" href="css/style.css?<?=date("d-h-i")?>">
-    <link rel="stylesheet" href="css/modal.css?<?=date("d-h-i")?>">
-    <title>Justice for all international</title>
-</head>
 
-<body>
+?>
+
 <header class="header">
     <div id="home" class="header_nav">
         <div class="logo">
@@ -165,98 +155,43 @@
             </div>
         </div>
     </section>
-    <section class="projects" id="projects">
-        <div class="">
-            <h2 class="h2">Projects</h2>
-            <ul>
-                <li class="li" data-lm="0">
-                    <h3 class="h3">Business in Human Rights</h3>
-                </li>
-                <li class="li" data-lm="1">
-                    <h3 class="h3">Whistleblowers and Journalists</h3>
-                </li>
-                <li class="li" data-lm="2">
-                    <h3 class="h3">Human Rights Defenders</h3>
-                </li>
-                <li class="li" data-lm="3">
-                    <h3 class="h3">Equality</h3>
-                </li>
-                <li class="li" data-lm="4">
-                    <h3 class="h3">Police Reform</h3>
-                </li>
-                <li class="li" data-lm="5">
-                    <h3 class="h3">Independence of Judges and Lawyers</h3>
-                </li>
-                </li>
-                <li class="li" data-lm="6">
-                    <h3 class="h3">Child Rights</h3>
-                </li>
-            </ul>
-        </div>
-        <div class="content_item a1">
-            <div class="text">
 
-
-                <p class="p active"> Our work in the realm of business and human rights specifically focuses on
-                    protecting
-                    entrepreneurs and small to medium-sized enterprises (SMEs) from human rights abuses in corporate
-                    settings. We advocate for stringent adherence to the UN Guiding Principles on Business and Human
-                    Rights, promoting ethical business practices that prioritize human rights and sustainable
-                    development.
-                </p>
-                <p class="p">
-                    We provide robust support to whistleblowers and journalists, vital cogs in the wheel of
-                    transparent governance and human rights advocacy. Our organization stands with those who
-                    courageously expose wrongdoing, offering them legal protection, securing their safety, and
-                    ensuring their fundamental freedoms are respected, particularly their freedom of expression and
-                    right to information.
-                </p>
-                <p class="p">
-                    "Justice for All International" champions human rights defenders across the globe, ensuring they
-                    have the necessary protections and resources to carry out their critical work. We provide
-                    support through legal assistance, emergency interventions, and global advocacy to bring
-                    international attention to their struggles and successes in promoting human rights.
-                </p>
-                <p class="p">
-                    Our commitment to equality is unwavering. We tackle systemic discrimination and advocate for
-                    equal rights for all, regardless of gender, race, ethnicity, or sexual orientation. Through
-                    strategic litigation and public campaigns, we strive to dismantle barriers to equality and
-                    foster a more inclusive and just society.
-                </p>
-                <p class="p">
-                    "Justice for All International" is committed to reforming police practices to meet international
-                    human rights standards. Our efforts promote procedural justice, transparency, and accountability
-                    to prevent power abuse and corruption. We focus on the adverse effects of policing on vulnerable
-                    groups, pushing for reforms that address systemic inequalities and respect individual rights.
-                    Our programs support human rights training, conflict resolution, and community engagement,
-                    aiming to foster cooperation between police and communities. Additionally, we undertake
-                    strategic litigation against unlawful practices and collaborate with policymakers and
-                    international entities to achieve comprehensive police reform. This commitment reflects our
-                    belief in reform's potential to significantly improve law enforcement agencies' integrity and
-                    adherence to human rights.÷
-                </p>
-                <p class="p">
-                    The independence of judges and lawyers is fundamental to the integrity of justice systems
-                    worldwide. "Justice for All International" advocates for policies and practices that protect
-                    legal practitioners from political interference and ensure their ability to uphold justice
-                    without fear or favor.
-                </p>
-
-                <p class="p">
-                    Children's rights are at the heart of our advocacy efforts. We work tirelessly to protect
-                    children from abuse, exploitation, and neglect while promoting their access to basic services
-                    such as education and healthcare. Our initiatives support the implementation of international
-                    treaties and national laws designed to safeguard children's rights and promote their well-being
-                    in societies around the world.
-                    These expanded descriptions provide a comprehensive view of the NGO's extensive activities,
-                    highlighting its commitment to tackling a wide array of human rights issues through well-defined
-                    projects and initiatives. Each section is crafted to incorporate relevant keywords and themes to
-                    enhance visibility and impact.
-                </p>
-
-
+    <section  id="projects">
+        <div class="projects_mobile">
+            <div class="accordion">
+                <?php
+                foreach ($get_projects as $key => $project) { ?>
+                    <div class="accordion-item">
+                        <div class="accordion-header"><?= $project['name'] ?></div>
+                        <div class="accordion-content"><?= $project['text'] ?></div>
+                    </div>
+                <?php } ?>
             </div>
         </div>
+        <div class="projects">
+            <div class="">
+                <h2 class="h2">Projects</h2>
+                <ul>
+                    <?php
+                    foreach ($get_projects as $key => $project) {
+                        echo '<li class="li" data-lm="' . $key . '">
+                    <h3 class="h3">' . $project["name"] . '</h3>
+                </li>';
+                    }
+                    ?>
+                </ul>
+            </div>
+            <div class="content_item a1">
+                <div class="text">
+                    <?php
+                    foreach ($get_projects as $key => $project) {
+                        echo '<p class="p ' . (!$key ? 'active' : '') . '">' . $project['text'] . '</p>';
+                    }
+                    ?>
+                </div>
+            </div>
+        </div>
+
     </section>
     <section class="slider_block">
         <div class="swiper mySwiper_img">
@@ -349,7 +284,7 @@
                         </div>
                         <div class="swiper-slide">
                             <div class="title_wrapper">
-                                <h3 class="h3" id="completed_cases">Complited cases</h3>
+                                <h3 class="h3" id="completed_cases">Completed cases</h3>
                             </div>
 
                             <p class="p">"Justice for All International" is actively engaged in advocating for
@@ -397,15 +332,29 @@
         <div class="content">
             <h2 class="h2">Take Action</h2>
             <form action="php_scripts/sendemail.php" method="post">
-                <input required placeholder="First name" name="firstname" type="text">
-                <input required placeholder="Last name" name="lastname" type="text">
-                <input required placeholder="Your email" name="email" type="email">
-                <input placeholder="Phone number" name="number" type="text">
-                <input required placeholder="Place of employment" name="place" type="text">
-                <input required placeholder="Position" name="position" type="text">
-                <textarea placeholder="Enter your request..." name="message" id="" cols="30" rows="10"></textarea>
+                <label>
+                    <input required placeholder="First name" name="firstname" type="text">
+                </label>
+                <label>
+                    <input required placeholder="Last name" name="lastname" type="text">
+                </label>
+                <label>
+                    <input required placeholder="Your email" name="email" type="email">
+                </label>
+                <label>
+                    <input placeholder="Phone number" name="number" type="text">
+                </label>
+                <label>
+                    <input required placeholder="Place of employment" name="place" type="text">
+                </label>
+                <label>
+                    <input required placeholder="Position" name="position" type="text">
+                </label>
+                <label>
+                    <textarea placeholder="Enter your request..." name="message" id="" cols="30" rows="10"></textarea>
+                </label>
                 <div class="button_wrapper">
-                    <button type="send">Send</button>
+                    <button type="submit">Send</button>
                 </div>
             </form>
         </div>
@@ -414,40 +363,14 @@
         <h2>Press release</h2>
         <h3>News</h3>
         <div class="spisok">
-            <div class="card">
-                <div class="img">
-                    <img src="img/news1.png" alt="">
-                </div>
-                <p>November 2023</p>
-                <a href="./news.php?id=1" class="h4">The death penalty in Uzbekistan is still shrouded in secrecy after the moratorium in 2004
-                    and complete abolition in 2008</a>
-
-            </div>
-            <div class="card c2">
-                <div class="img">
-                    <img src="img/news1.png" alt="">
-                </div>
-                <p>1 May 2023</p>
-                <h4>Review of Kazakhstan’s Compliance with the Convention against Torture and
-                    Other Cruel, Inhuman or Degrading Treatment or Punishment</h4>
-            </div>
-            <div class="card c3">
-                <div class="img">
-                    <img src="img/news1.png" alt="">
-                </div>
-                <p>22 August 2023</p>
-                <h4>Human Rights Violations & #SLAPPs in the UK</h4>
-            </div>
-            <div class="card c4">
-                <div class="img">
-                    <img src="img/news1.png" alt="">
-                </div>
-                <p>12 September 2023</p>
-                <h4>Examination of the 5th report and country situation of the United States of America</h4>
-            </div>
+            <?php
+            foreach ($get_press_release as $key => $item) {
+                include('components/press_release_card.php');
+            }
+            ?>
         </div>
         <div class="hr"></div>
-        <a href=""><span>Read more</span> <img src="img/strelka.svg" alt=""></a>
+        <a href="" class="read_more"><span>Read more</span> <img src="img/strelka.svg" alt=""></a>
 
     </section>
     <section class="events" id="events">
@@ -473,22 +396,14 @@
         </div>
     </section>
 </main>
+
+<?php
+$data_assets['js'] = [
+    './js/script.js',
+    './js/swipe_slider.js',
+    './js/accordion.js',
+];
+?>
+<?php include_once('components/modals.php') ?>
 <?php include_once('components/footer.php') ?>
 
-<div class="modal_wrapper">
-    <div class="bg"></div>
-    <div class="modal burger_menu">
-        <div class="burger_nav">
-            <img onclick="open_modal('burger_menu')" class="close" src="img/cross.svg" alt="">
-        </div>
-        <?php include("./components/nav_links.php") ?>
-    </div>
-</div>
-<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-<script src="js/script.js?<?=date("d-h-i")?>"></script>
-<script src="js/modal.js?<?=date("d-h-i")?>"></script>
-<script src="js/swipe_slider.js?<?=date("d-h-i")?>" type="module"></script>
-</body>
-
-
-</html>

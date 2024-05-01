@@ -1,42 +1,40 @@
 <?php
-require_once("./php_scripts/connections.php");
+$data_assets['css'] = [
+    './css/news.css'
+];
+$data_assets['js'] = [
+    './js/pdf_reader.js'
+];
+include("./components/header.php");
 $id = $_GET['id'];
 
 $result = CustomQuery("SELECT * FROM `news` WHERE `id` = $id", 1);
 
 ?>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="fonts/Athelas/font-athelas.css?<?=date("d-h-i")?>">
-    <link rel="stylesheet" href="fonts/Bebasneue/font-bebasneue.css?<?=date("d-h-i")?>">
-    <link rel="stylesheet" href="css/reset.css?<?=date("d-h-i")?>">
-    <link rel="stylesheet" href="css/global.css?<?=date("d-h-i")?>">
-    <link rel="stylesheet" href="css/news.css?<?=date("d-h-i")?>">
-    <link rel="stylesheet" href="css/modal.css?<?=date("d-h-i")?>">
 
-    <title>Document</title>
-</head>
 <body>
 <header class="header">
     <div class="nav_top">
         <div class="bg"></div>
     </div>
     <div class="content">
-        <h1 class="h1"><?= $result['name']?></h1>
-        <p class="date"><?= $result['date']?></p>
+        <h1 class="h1"><?= $result['name'] ?></h1>
+        <p class="date"><?= $result['date'] ?></p>
     </div>
 </header>
 <main>
-    <section class="content content_wrapper"><div class="content_block"><?= $result['content']?></div></section>
-    <section class="pdf"><?= $result['pdf']?></section>
+    <section class="content content_wrapper">
+        <div class="content_block"><?= $result['content'] ?></div>
+    </section>
+
+    <div class="pdf-container__wrapper">
+        <div id="pdf-container" class="pdf-container">
+            <canvas id="pdf-canvas" class="pdf-canvas" data-url="<?= $result['pdf'] ?>"></canvas>
+            <img src="./img/icon/arrow.svg" alt="" id="prev-button" class="btn btn_left">
+            <img src="./img/icon/arrow.svg" alt="" id="next-button" class="btn btn_right">
+        </div>
+    </div>
+    <section class="pdf"></section>
 </main>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf.js"></script>
 <?php include_once('components/footer.php') ?>
-</body>
-</html>

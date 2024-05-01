@@ -1,3 +1,6 @@
+<?php
+global $data_assets;
+?>
 <footer class="footer" id="contact_us">
     <div class="content_item">
         <img src="./img/logo.png" alt="">
@@ -12,3 +15,10 @@
         <p>developed by: <a href="https://dreamsagency.net/">Dreams Agency</a></p>
     </div>
 </footer>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="./js/modal.js?<?=date("d-h-i")?>"></script>
+<?php
+echo getParams($data_assets, 'js');
+?>
+</body>
+</head>

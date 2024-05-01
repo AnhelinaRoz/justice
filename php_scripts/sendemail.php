@@ -7,7 +7,7 @@ $place = $_POST["place"];
 $position = $_POST["position"];
 $message = $_POST["message"];
 
-$to = "sharof.azizov@jpti.ch";
+$to = "registry@jpti.ch";
 $subject = "Email from the website";
 
 $message = "
@@ -29,8 +29,8 @@ $message = "
 
 $headers = "MIME-Version: 1.0" . "\r\n";
 $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
-$headers .= "From: sender@example.com" . "\r\n" .
-    "Reply-To: sender@example.com" . "\r\n" .
+$headers .= "From: rozkovanangelina@gmail.com" . "\r\n" .
+    "Reply-To: registry@jpti.ch" . "\r\n" .
     "X-Mailer: PHP/" . phpversion();
 
 

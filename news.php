@@ -13,7 +13,7 @@ $result = CustomQuery("SELECT * FROM `news` WHERE `id` = $id", 1);
 ?>
 
 <body>
-<header class="header">
+<header class="header2">
     <div class="nav_top">
         <div class="bg"></div>
     </div>

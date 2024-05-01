@@ -370,7 +370,7 @@ $get_press_release = CustomQuery("SELECT * FROM `news` ORDER BY  `date` DESC LIM
             ?>
         </div>
         <div class="hr"></div>
-        <a href="" class="read_more"><span>Read more</span> <img src="img/strelka.svg" alt=""></a>
+        <a href="all_press_released.php" class="read_more"><span>Read more</span> <img src="img/strelka.svg" alt=""></a>
 
     </section>
     <section class="events" id="events">

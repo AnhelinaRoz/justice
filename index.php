@@ -111,10 +111,10 @@ $get_press_release = CustomQuery("SELECT * FROM `news` ORDER BY  `date` DESC LIM
                         Mr. Azizov's contributions to Justice pour Tous Internationale are underpinned by a rich tapestry of experience and a profound understanding of international human rights mechanisms. This experience includes hands-on fieldwork in diverse geopolitical contexts, ranging from Eastern Europe to the Middle East and beyond, enhancing his capability to effectuate meaningful change in the landscape of global human rights protection. His role is not only critical in administrative capacities but also as a spiritual guide, steering the organization through complex challenges with wisdom and integrity.
                     </p>
                 </div>
-                <div class="img"><img src="img/Azizov.jpeg" alt=""></div>
+                <div class="img"><img src="img/Azizov.png" alt=""></div>
             </div>
             <div class="card team_2">
-                <div class="img"><img src="img/Leticia.jpeg" alt=""></div>
+                <div class="img"><img src="img/Leticia.png" alt=""></div>
                 <div>
                     <h3 class="h3">Leticia Maria Marques Magalhaes</h3>
                     <p class="subtitle">Geneva, Switzerland</p>
@@ -142,7 +142,6 @@ $get_press_release = CustomQuery("SELECT * FROM `news` ORDER BY  `date` DESC LIM
                         challenging environments. His engagement with UN mandates ensures comprehensive advocacy and
                         protection of rights for those at risk.</p>
                 </div>
-                <div class="img"><img src="img/team_1.png" alt=""></div>
             </div>
         </div>
     </section>

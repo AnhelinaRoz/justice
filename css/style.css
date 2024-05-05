@@ -64,6 +64,7 @@ body::-webkit-scrollbar-thumb {
                 padding: 17px 56px;
                 margin-top: 46px;
                 text-transform: uppercase;
+                background-color: #F6F6F6;
 
             }
         }

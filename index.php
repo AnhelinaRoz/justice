@@ -212,65 +212,79 @@ $get_press_release = CustomQuery("SELECT * FROM `news` ORDER BY  `date` DESC LIM
                     <div class="img">
                         <img src="img/07.jpg" alt="">
                     </div>
-                    <div class="swiper-slide">
-                        <div class="img">
-                            <img src="img/08.JPG" alt="">
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="img">
-                                <img src="img/09.JPG" alt="">
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="img">
-                                    <img src="img/10.jpg" alt="">
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="img">
-                                        <img src="img/11.JPG" alt="">
-                                    </div>
-                                    <div class="swiper-slide">
-                                        <div class="img">
-                                            <img src="img/12.JPG" alt="">
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <div class="img">
-                                                <img src="img/12.JPG" alt="">
-                                            </div>
-                                            <div class="swiper-slide">
-                                                <div class="img">
-                                                    <img src="img/13.JPG" alt="">
-                                                </div>
-                                                <div class="swiper-slide">
-                                                    <div class="img">
-                                                        <img src="img/14.JPG" alt="">
-                                                    </div>
-                                                    <div class="swiper-slide">
-                                                        <div class="img">
-                                                            <img src="img/15.JPG" alt="">
-                                                        </div>
-                                                        <div class="swiper-slide">
-                                                            <div class="img">
-                                                                <img src="img/16.JPG" alt="">
-                                                            </div>
-                                                            <div class="swiper-slide">
-                                                                <div class="img">
-                                                                    <img src="img/17.JPG" alt="">
-                                                                </div>
-                                                                <div class="swiper-slide">
-                                                                    <div class="img">
-                                                                        <img src="img/18.JPG" alt="">
-                                                                    </div>
-                                                                    <div class="swiper-slide">
-                                                                        <div class="img">
-                                                                            <img src="img/19.jpg" alt="">
-                                                                        </div>
-                                                                        <div class="swiper-slide">
-                                                                            <div class="img">
-                                                                                <img src="img/20.jpg" alt="">
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="img">
+                        <img src="img/08.JPG" alt="">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="img">
+                        <img src="img/09.JPG" alt="">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="img">
+                        <img src="img/10.jpg" alt="">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="img">
+                        <img src="img/11.JPG" alt="">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="img">
+                        <img src="img/12.JPG" alt="">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="img">
+                        <img src="img/12.JPG" alt="">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="img">
+                        <img src="img/13.JPG" alt="">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="img">
+                        <img src="img/14.JPG" alt="">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="img">
+                        <img src="img/15.JPG" alt="">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="img">
+                        <img src="img/16.JPG" alt="">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="img">
+                        <img src="img/17.JPG" alt="">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="img">
+                        <img src="img/18.JPG" alt="">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="img">
+                        <img src="img/19.jpg" alt="">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="img">
+                        <img src="img/20.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
 
 
     </section>

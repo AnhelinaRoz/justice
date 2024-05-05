@@ -132,7 +132,7 @@ $get_press_release = CustomQuery("SELECT * FROM `news` ORDER BY  `date` DESC LIM
                 <div>
                     <h3 class="h3">Anhelina Rozhkovan</h3>
                     <p class="subtitle">Geneva, Switzerland</p>
-                    <p class="p">Anhelina Rozhkova is a pivotal member of our team, bringing her exceptional skills in web development and design to the forefront of our digital initiatives. With a keen eye for aesthetics and functionality, Anhelina has expertly developed and designed our website, creating a user-friendly and visually appealing platform that effectively communicates our mission and engages our audience. Her technical prowess and creative vision ensure that our digital presence resonates with our supporters and amplifies our advocacy efforts.</p>
+                    <p class="p">Anhelina bringing her exceptional skills in web development and design to the forefront of our digital initiatives. With a keen eye for aesthetics and functionality, Anhelina has expertly developed and designed our website, creating a user-friendly and visually appealing platform that effectively communicates our mission and engages our audience. Her technical prowess and creative vision ensure that our digital presence resonates with our supporters and amplifies our advocacy efforts.</p>
                 </div>
             </div>
         </div>

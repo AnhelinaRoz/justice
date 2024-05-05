@@ -215,17 +215,17 @@ $get_press_release = CustomQuery("SELECT * FROM `news` ORDER BY  `date` DESC LIM
                 </div>
                 <div class="swiper-slide">
                     <div class="img">
-                        <img src="img/08.JPG" alt="">
+                        <img src="img/8.JPG" alt="">
                     </div>
                 </div>
                 <div class="swiper-slide">
                     <div class="img">
-                        <img src="img/09.JPG" alt="">
+                        <img src="img/9.JPG" alt="">
                     </div>
                 </div>
                 <div class="swiper-slide">
                     <div class="img">
-                        <img src="img/10.jpg" alt="">
+                        <img src="img/010.png" alt="">
                     </div>
                 </div>
                 <div class="swiper-slide">
@@ -235,22 +235,17 @@ $get_press_release = CustomQuery("SELECT * FROM `news` ORDER BY  `date` DESC LIM
                 </div>
                 <div class="swiper-slide">
                     <div class="img">
-                        <img src="img/12.JPG" alt="">
+                        <img src="img/012.png" alt="">
                     </div>
                 </div>
                 <div class="swiper-slide">
                     <div class="img">
-                        <img src="img/12.JPG" alt="">
+                        <img src="img/013.png" alt="">
                     </div>
                 </div>
                 <div class="swiper-slide">
                     <div class="img">
-                        <img src="img/13.JPG" alt="">
-                    </div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="img">
-                        <img src="img/14.JPG" alt="">
+                        <img src="img/014.png" alt="">
                     </div>
                 </div>
                 <div class="swiper-slide">
@@ -260,7 +255,7 @@ $get_press_release = CustomQuery("SELECT * FROM `news` ORDER BY  `date` DESC LIM
                 </div>
                 <div class="swiper-slide">
                     <div class="img">
-                        <img src="img/16.JPG" alt="">
+                        <img src="img/016.png" alt="">
                     </div>
                 </div>
                 <div class="swiper-slide">

@@ -104,48 +104,39 @@ $get_press_release = CustomQuery("SELECT * FROM `news` ORDER BY  `date` DESC LIM
                 <div>
                     <h3 class="h3">Sharof Azizov</h3>
                     <p class="subtitle">Geneva, Switzerland</p>
-                    <p class="p">Sharof Azizov is a cornerstone of our organization, serving as both Founder and
-                        Secretary of the Board at "Justice for All International". His extensive experience,
-                        spanning
-                        over 25 years with human rights organizations and a significant tenure at the UN OHCHR, has
-                        honed his acumen in international litigation.</p>
-                    <p class="p">Specializing in human rights law, Sharof provides SMB entrepreneurs with strategic
-                        navigation through international legal complexities and expertly addresses violations in
-                        challenging environments. His engagement with UN mandates ensures comprehensive advocacy and
-                        protection of rights for those at risk.</p>
+                    <p class="p">Sharof Azizov serves as both the Founder and Secretary of the Board at "Justice pour Tous Internationale," embodying a foundational pillar within the organization. His extensive experience, which spans over 25 years in human rights roles, including a significant tenure at the United Nations Office of the High Commissioner for Human Rights (OHCHR), has profoundly shaped his expertise in international litigation and human rights law.
+                    </p>
+                    <p class="p">Mr. Azizov specializes in providing strategic guidance through the maze of international legal complexities, particularly to SMB entrepreneurs. His adeptness at navigating and addressing human rights violations in challenging environments underscores his deep commitment to the protection and advocacy of rights. His involvement with UN mandates ensures a thorough approach to advocacy, securing comprehensive protection for individuals at risk.</p>
+                    <p class="p">
+                        Mr. Azizov's contributions to Justice pour Tous Internationale are underpinned by a rich tapestry of experience and a profound understanding of international human rights mechanisms. This experience includes hands-on fieldwork in diverse geopolitical contexts, ranging from Eastern Europe to the Middle East and beyond, enhancing his capability to effectuate meaningful change in the landscape of global human rights protection. His role is not only critical in administrative capacities but also as a spiritual guide, steering the organization through complex challenges with wisdom and integrity.
+                    </p>
                 </div>
-                <div class="img"><img src="img/sharof.jpg" alt=""></div>
+                <div class="img"><img src="img/Azizov.jpeg" alt=""></div>
             </div>
             <div class="card team_2">
+                <div class="img"><img src="img/Leticia.jpeg" alt=""></div>
+                <div>
+                    <h3 class="h3">Leticia Maria Marques Magalhaes</h3>
+                    <p class="subtitle">Geneva, Switzerland</p>
+                    <p class="p"> Leticia Maria Marques Magalhaes is the founder and current President of the Board of Justice pour Tous Internationale. A Swiss national with a distinguished background in medicine, Ms. Magalhaes brings a deeply empathetic perspective to her role, emphasizing the crucial relationship between health and human dignity. This understanding significantly enriches the Association's mission, particularly in its support for vulnerable groups such as entrepreneurs, human rights defenders, political activists, bloggers, and journalists, who often confront serious risks.
+                    </p>
+                    <p class="p">
+                        Ms. Magalhaes provides what could be described as spiritual leadership to Justice pour Tous Internationale, nurturing the organization's core values and vision. Her efforts extend beyond mere administration, as she actively fosters the development of civil societies and democratic institutions. Her compassionate guidance ensures that the Association not only assists with immediate human rights concerns, such as preparing and submitting complaints to United Nations protection mechanisms, but also contributes to long-term societal and democratic enhancements.
+                    </p>
+                </div>
+
+
+            </div>
+            <div class="card team_3">
                 <div class="img"><img src="img/angelina.jpg" alt=""></div>
                 <div>
                     <h3 class="h3">Anhelina Rozhkovan</h3>
                     <p class="subtitle">Geneva, Switzerland</p>
-                    <p class="p"> Anhelina is the driving force behind our advanced web solutions, bringing
+                    <p class="p">Anhelina is the driving force behind our advanced web solutions, bringing
                         unparalleled expertise in
                         development and design. As an IT consultant, she adeptly incorporates elements of
                         cybersecurity and
-                        artificial intelligence, particularly in the sphere of personal data protection.
-                    </p>
-                    <p class="p">
-                        Anhelina’s forward-thinking approach ensures our systems are at the forefront of
-                        technological
-                        advances, providing a secure and dynamic user experience.Her technical acumen ensures our
-                        projects
-                        are not only aesthetically pleasing but also uphold the highest standards of data integrity
-                        and
-                        innovation.</p>
-                </div>
-            </div>
-            <div class="card team_3">
-                <div>
-                    <h3 class="h3">Sharof Azizov</h3>
-                    <p class="subtitle">Geneva, Switzerland</p>
-                    <p class="p">Sharof Azizov is a cornerstone of our organization, serving as both Founder and
-                        Secretary of the Board at "Justice for All International". His extensive experience,
-                        spanning
-                        over 25 years with human rights organizations and a significant tenure at the UN OHCHR, has
-                        honed his acumen in international litigation.</p>
+                        artificial intelligence, particularly in the sphere of personal data protection.</p>
                     <p class="p">Specializing in human rights law, Sharof provides SMB entrepreneurs with strategic
                         navigation through international legal complexities and expertly addresses violations in
                         challenging environments. His engagement with UN mandates ensures comprehensive advocacy and
@@ -156,7 +147,7 @@ $get_press_release = CustomQuery("SELECT * FROM `news` ORDER BY  `date` DESC LIM
         </div>
     </section>
 
-    <section  id="projects">
+    <section id="projects">
         <div class="projects_mobile">
             <div class="accordion">
                 <?php
@@ -230,9 +221,29 @@ $get_press_release = CustomQuery("SELECT * FROM `news` ORDER BY  `date` DESC LIM
                     <div class="img">
                         <img src="img/07.jpg" alt="">
                     </div>
-                </div>
-            </div>
-        </div>
+                    <div class="swiper-slide">
+                        <div class="img">
+                            <img src="img/07.jpg" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="img">
+                                <img src="img/07.jpg" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="img">
+                                    <img src="img/07.jpg" alt="">
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="img">
+                                        <img src="img/07.jpg" alt="">
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="img">
+                                            <img src="img/07.jpg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
 
 
     </section>
@@ -287,40 +298,10 @@ $get_press_release = CustomQuery("SELECT * FROM `news` ORDER BY  `date` DESC LIM
                                 <h3 class="h3" id="completed_cases">Completed cases</h3>
                             </div>
 
-                            <p class="p">"Justice for All International" is actively engaged in advocating for
-                                high-profile
-                                cases
-                                involving significant human rights violations. Currently, our petitions focus on
-                                addressing the
-                                unjust treatment and arbitrary detention of individuals such as Julian Assange and
-                                Craig Murray.
-                            </p>
-                            <p class="p">Our petition for Julian Assange emphasizes the ongoing injustice of his
-                                nearly
-                                14-year-long
-                                arbitrary detention by the UK. We call for his immediate release and urge the United
-                                Nations
-                                High
-                                Commissioner for Human Rights and Special Procedures mandate holders to address his
-                                case with
-                                the
-                                urgency it deserves.</p>
-                            <p class="p">This petition also highlights the misleading assurances provided by the
-                                U.S. regarding
-                                First Amendment protections, casting doubt on the fairness of Assange's potential
-                                extradition to
-                                the
-                                United States.</p>
-                            <p class="p">Regarding Craig Murray, our petition brings attention to his prosecution
-                                under the UK
-                                Terrorism Act 2000, particularly for his peaceful support of the Palestinian
-                                people's right to
-                                self-defense. His case has experienced a lack of decisive action and attention from
-                                the OHCHR,
-                                despite repeated appeals and submissions. We seek to highlight the broader
-                                implications of his
-                                case
-                                for freedom of speech and the protection of human rights defenders.</p>
+                            <p class="p">"Justice for All International" is proud to highlight a significant achievement in our ongoing commitment to defending human rights and the rule of law. We recently submitted a crucial case to the United Nations Special Procedures, focusing on the impact of international sanctions on entrepreneurial freedom—a topic seldom addressed in human rights discourse.</p>
+                            <p class="p"> Our submission revolved around the case of Ms. Alena Bekker, a German entrepreneur whose business faced severe legal repercussions due to the EU's sanctions regime. Ms. Bekker's company, Texforum-Interhandel e.K., attempted to import linen briquettes from Belarus, which were wrongly reclassified as wood products under EU sanctions, leading to unwarranted criminal charges. This case highlighted the excessive compliance and arbitrary enforcement by authorities, which not only stifled entrepreneurial activity but also infringed on basic human rights, including the right to a fair trial and equality before the law.</p>
+                            <p class="p">Through our advocacy, this case has brought to light the broader implications of sanctions on small and medium-sized enterprises and the need for a more principled approach that respects human rights and the rule of law in global trade practices. We continue to stand with Ms. Bekker and advocate for fair legal treatment and economic policies that safeguard the rights of all entrepreneurs.</p>
+
                         </div>
                     </div>
                 </div>
@@ -405,4 +386,3 @@ $data_assets['js'] = [
 ];
 ?>
 <?php include_once('components/footer.php') ?>
-

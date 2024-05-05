@@ -8,7 +8,7 @@ $link = "./news.php?id=" . $item['id'];
     <a
             href="<?= $link ?>"
             class="img">
-        <img src="<?= $item["img"]?? "news/news1.png" ?>" alt="">
+        <img src="<?= $item["logo"]?? "news/news1.png" ?>" alt="">
     </a>
     <p><?= date('F Y', strtotime($item['date'])) ?></p>
     <a href="<?= $link ?>" class="h4"><?= $item['name'] ?></a>

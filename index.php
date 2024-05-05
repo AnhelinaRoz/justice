@@ -28,7 +28,8 @@ $get_press_release = CustomQuery("SELECT * FROM `news` ORDER BY  `date` DESC LIM
         <div class="bg"></div>
         <div class="text">
             <h1 class="h1">Fight injustice and human rights violations around the world</h1>
-            <button class="button">Donate</button>
+            <a class="button" href="https://www.gofundme.com/f/defend-the-defenders-freedom-and-justice?member=33198191&sharetype=teams&utm_campaign=p_na+share-sheet&utm_medium=copy_link&utm_source=customer¬">Donate</a>
+
         </div>
     </div>
 </header>

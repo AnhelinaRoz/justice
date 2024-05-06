@@ -93,7 +93,7 @@ $get_press_release = CustomQuery("SELECT * FROM `news` ORDER BY  `date` DESC LIM
                 </div>
             </div>
             <div class="hr"></div>
-            <div class="img"><img src="img/about.jpg" alt=""></div>
+            <div class="img"><img src="img/aboutus.jpeg" alt=""></div>
         </div>
 
     </section>

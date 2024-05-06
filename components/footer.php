@@ -1,7 +1,7 @@
 <?php
 global $data_assets;
 ?>
-<footer class="footer" id="contact_us">
+<footer class="footer">
     <div class="content_item">
         <img src="./img/logo.png" alt="">
         <div class="">

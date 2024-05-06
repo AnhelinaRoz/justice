@@ -93,7 +93,7 @@ $get_press_release = CustomQuery("SELECT * FROM `news` ORDER BY  `date` DESC LIM
                 </div>
             </div>
             <div class="hr"></div>
-            <div class="img"><img src="img/aboutus.jpeg" alt=""></div>
+            <div class="img"><img src="img/aboutus.jpg" alt=""></div>
         </div>
 
     </section>
@@ -346,7 +346,7 @@ $get_press_release = CustomQuery("SELECT * FROM `news` ORDER BY  `date` DESC LIM
             </div>
         </div>
     </section>
-    <section class="take_action" id="take_action">
+    <section class="take_action" id="take_action" id="contact_us">
         <div class="content">
             <h2 class="h2">Take Action</h2>
             <form action="php_scripts/sendemail.php" method="post">

@@ -34,7 +34,7 @@ $get_press_release = CustomQuery("SELECT * FROM `news` ORDER BY  `date` DESC LIM
     </div>
 </header>
 <main>
-    <section class="about" id="about" id="association" id="management" id="thematic_priorities ">  
+    <section class="about" id="about" id="association" id="management" id="thematic_priorities ">
         <div class="title">
             <h2 class="h2">About us</h2>
 
@@ -105,12 +105,8 @@ $get_press_release = CustomQuery("SELECT * FROM `news` ORDER BY  `date` DESC LIM
                 <div>
                     <h3 class="h3">Sharof Azizov</h3>
                     <p class="subtitle">Geneva, Switzerland</p>
-                    <p class="p">Sharof Azizov serves as both the Founder and Secretary of the Board at "Justice pour Tous Internationale," embodying a foundational pillar within the organization. His extensive experience, which spans over 25 years in human rights roles, including a significant tenure at the United Nations Office of the High Commissioner for Human Rights (OHCHR), has profoundly shaped his expertise in international litigation and human rights law.
-                    </p>
-                    <p class="p">Mr. Azizov specializes in providing strategic guidance through the maze of international legal complexities, particularly to SMB entrepreneurs. His adeptness at navigating and addressing human rights violations in challenging environments underscores his deep commitment to the protection and advocacy of rights. His involvement with UN mandates ensures a thorough approach to advocacy, securing comprehensive protection for individuals at risk.</p>
-                    <p class="p">
-                        Mr. Azizov's contributions to Justice pour Tous Internationale are underpinned by a rich tapestry of experience and a profound understanding of international human rights mechanisms. This experience includes hands-on fieldwork in diverse geopolitical contexts, ranging from Eastern Europe to the Middle East and beyond, enhancing his capability to effectuate meaningful change in the landscape of global human rights protection. His role is not only critical in administrative capacities but also as a spiritual guide, steering the organization through complex challenges with wisdom and integrity.
-                    </p>
+                    <p class="p">Founder and Executive Director of Justice pour Tous Internationale, Sharof Azizov is a distinguished International Human Rights Litigation Consultant with over 25 years of extensive experience in various rule of law and human rights capacities, including a decade spent at the UN OHCHR. He holds an LLM in International Human Rights Law from the University of Essex and possesses a deep and nuanced understanding of international litigation, particularly concerning human rights and humanitarian issues related to business and human rights. Mr. Azizov has substantial field experience across a wide range of countries, including Uzbekistan, Kyrgyzstan, Kazakhstan, Croatia, Kosovo, Northern Macedonia, Serbia, Georgia, Armenia, Azerbaijan, UK, USA, France, Belgium, Maldives, Sri Lanka, Saudi Arabia, Jordan, Qatar, Tunisia, and Sierra Leone, where he has provided strategic advice and counsel to victims of political persecution, corruption, and excessive regulatory compliance. His expertise also encompasses a strong grasp of International Humanitarian Law and a thorough familiarity with UN and regional mechanisms dedicated to the promotion and protection of human rights and fundamental freedoms.</p>
+                    <p class="p">Highly skilled in engaging with United Nations special procedures mandate holders, including the UN Working Group on Business and Human Rights, Mr. Azizov has significant experience working with UN treaty bodies and special rapporteurs. His professional activities include meticulous human rights monitoring and reporting on conditions such as torture and other ill-treatments in prisons, as well as the protection of a wide array of vulnerable groups including entrepreneurs, human rights defenders, bloggers, whistleblowers, journalists, and minorities. Mr. Azizov is adept at conducting human rights due diligence, supervising elections, and overseeing court hearings. He excels in interviewing victims and collecting pertinent documentation from diverse sources, such as NGOs, ombudsman offices, and judicial and law enforcement agencies, ensuring thorough follow-up on case progress and sustaining collaborative relationships with governmental officials, diplomats, and human rights NGOs worldwide. Additionally, he provides victims of human rights violations with valuable guidance on international litigation matters, ensuring compliance with human rights laws and regulations relevant to their specific cases. Mr. Azizov offers comprehensive support in identifying and addressing human rights violations experienced by victims, assists in drafting and submitting human rights complaints to the appropriate United Nations special procedures mandate holders and relevant United Nations treaty bodies upon request, and devises effective international litigation strategies to safeguard their rights and freedoms.</p>
                 </div>
                 <div class="img"><img src="img/Azizov.png" alt=""></div>
             </div>
@@ -279,12 +275,78 @@ $get_press_release = CustomQuery("SELECT * FROM `news` ORDER BY  `date` DESC LIM
                         <img src="img/20.jpg" alt="">
                     </div>
                 </div>
+                <div class="swiper-slide">
+                    <div class="img">
+                        <img src="img/21.png" alt="">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="img">
+                        <img src="img/22.png" alt="">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="img">
+                        <img src="img/23.png" alt="">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="img">
+                        <img src="img/24.png" alt="">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="img">
+                        <img src="img/25.png" alt="">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="img">
+                        <img src="img/26.png" alt="">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="img">
+                        <img src="img/27.png" alt="">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="img">
+                        <img src="img/28.png" alt="">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="img">
+                        <img src="img/29.png" alt="">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="img">
+                        <img src="img/30.png" alt="">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="img">
+                        <img src="img/31.png" alt="">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="img">
+                        <img src="img/32.png" alt="">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="img">
+                        <img src="img/33.png" alt="">
+                    </div>
+                </div>
+
             </div>
         </div>
 
 
     </section>
-    <section class="petitions" id="petitions" id="current_petitions"  id="completed_cases">
+    <section class="petitions" id="petitions" id="current_petitions" id="completed_cases">
         <h2 class="h2">Petitions</h2>
         <div class="slider">
             <div class="slider_item">

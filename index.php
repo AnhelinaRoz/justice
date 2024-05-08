@@ -340,7 +340,11 @@ $get_press_release = CustomQuery("SELECT * FROM `news` ORDER BY  `date` DESC LIM
                         <img src="img/33.png" alt="">
                     </div>
                 </div>
-
+                <div class="swiper-slide">
+                    <div class="img">
+                        <img src="img/35.png" alt="">
+                    </div>
+                </div>
             </div>
         </div>
 

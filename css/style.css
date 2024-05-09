@@ -193,7 +193,7 @@ object-fit: contain;
 
         .slider {
             width: calc(50vw - (var(--padding_blocs) * 2));
-            max-width: 50%;
+            max-width: 678px;
         }
 
         .hr {

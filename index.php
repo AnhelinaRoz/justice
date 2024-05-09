@@ -472,12 +472,12 @@ $get_press_release = CustomQuery("SELECT * FROM `news` ORDER BY  `date` DESC LIM
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
                         <video controls class="video">
-                            <source src="img/video1.mp4" type="video/mp4">
+                            <source src="img/video2.mp4" type="video/mp4">
                         </video>
                     </div>
                     <div class="swiper-slide">
                         <video controls class="video">
-                            <source src="img/video2.mp4" type="video/mp4">
+                            <source src="img/video1.mp4" type="video/mp4">
                         </video>
                     </div>
                 </div>

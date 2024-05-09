@@ -180,11 +180,10 @@ body::-webkit-scrollbar-thumb {
         .p {
             font-size: 24px;
         }
-        .img img{
+    }
+ .img img{
 object-fit: contain;
         }
-    }
-
     .content_item {
         display: grid;
         grid-template-columns: 1fr auto 1fr;

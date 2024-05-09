@@ -222,6 +222,8 @@ object-fit: contain;
 
 .team {
     padding: 64px 0 0;
+    max-width: 1920px;
+    margin: auto;
 
     .card {
         display: flex;
@@ -264,6 +266,8 @@ object-fit: contain;
 .projects {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    max-width: 1920px;
+    margin: auto;
 
     .h2 {
         margin-bottom: 80px;
@@ -390,7 +394,8 @@ object-fit: contain;
     justify-content: space-between;
     padding-left: var(--padding_blocs);
     flex-wrap: nowrap;
-
+    max-width: 1920px;
+    margin: auto;
     .slider {
         max-width: 70%;
         min-width: 520px;
@@ -522,6 +527,8 @@ object-fit: contain;
 
 .press_release {
     padding: 64px var(--padding_blocs) 0;
+    max-width: 1920px;
+    margin: auto;
 }
 
 
@@ -587,6 +594,8 @@ object-fit: contain;
 
 .events {
     padding: 64px 40px;
+    max-width: 1920px;
+    margin: auto;
 
     .h2 {
         font-size: 75px;

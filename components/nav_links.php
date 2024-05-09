@@ -6,9 +6,9 @@ global $get_projects;
     <li class="dropdown li">
         <a href="#about" class="dropbtn a">About us</a>
         <div class="dropdown_content">
-            <a class="a" href="#association">Association</a>
-            <a class="a" href="#management">Management</a>
-            <a class="a" href="#thematic_priorities">Thematic Priorities</a>
+            <a class="a" href="#about">Association</a>
+            <a class="a" href="#about">Management</a>
+            <a class="a" href="#about">Thematic Priorities</a>
             <a class="a" href="#team">Team</a>
         </div>
     </li>
@@ -31,17 +31,17 @@ global $get_projects;
     <li class="dropdown li">
         <a href="#petitions" class="dropbtn a">Petitions</a>
         <div class="dropdown_content">
-            <a class="a" href="#current_petitions">Current Petitions</a>
-            <a class="a" href="#completed_cases">Completed Cases</a>
+            <a class="a" href="#petitions">Current Petitions</a>
+            <a class="a" href="#petitions">Completed Cases</a>
             <a class="a" href="#take_action">Take Action</a>
         </div>
     </li>
     <li class="dropdown li">
         <a href="#press_release" class="dropbtn a">Press Release</a>
         <div class="dropdown_content">
-            <a class="a" href="#view_all">View All</a>
-            <a class="a" href="#news">News</a>
-            <a class="a" href="#archive">Archive</a>
+            <a class="a" href="https://jpti.ch/all_press_released.php?sort=all">View All</a>
+            <a class="a" href="https://jpti.ch/all_press_released.php?sort=new">New</a>
+            <a class="a" href="https://jpti.ch/all_press_released.php?sort=archive">Archive</a>
         </div>
     </li>
     <li class="dropdown li">
@@ -52,5 +52,5 @@ global $get_projects;
             <a class="a" href="#trainings">Trainings</a>
         </div>
     </li>
-    <li class="li"><a class="a" href="#contact_us">Contact us</a></li>
+    <li class="li"><a class="a" href="#take_action">Contact us</a></li>
 </ul>

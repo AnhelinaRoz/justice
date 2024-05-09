@@ -633,7 +633,7 @@ object-fit: contain;
 
 @media screen and (min-width: 2000px) {
     .slider_block .img{
-height: 700px;
+height: 850px;
     }
 }
 @media screen and (max-width: 1000px) {

@@ -169,11 +169,12 @@ body::-webkit-scrollbar-thumb {
     padding: 134px var(--padding_blocs) 86px;
     background: #001D3B;
     color: white;
-    max-width: 1920px;
-    margin: auto;
+    
 
     .title {
         margin-bottom: 198px;
+        max-width: 1920px;
+    margin: auto;
 
         .h2 {
             color: white;

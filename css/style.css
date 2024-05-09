@@ -180,6 +180,9 @@ body::-webkit-scrollbar-thumb {
         .p {
             font-size: 24px;
         }
+        .img img{
+object-fit: contain;
+        }
     }
 
     .content_item {

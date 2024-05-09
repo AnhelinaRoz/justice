@@ -631,7 +631,11 @@ object-fit: contain;
     }
 }
 
-
+@media screen and (min-width: 2000px) {
+    .slider_block .img{
+height: 650px;
+    }
+}
 @media screen and (max-width: 1000px) {
 
     .header .navigation li,

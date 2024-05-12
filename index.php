@@ -350,6 +350,11 @@ $get_press_release = CustomQuery("SELECT * FROM `news` ORDER BY  `date` DESC LIM
                         <img src="img/35.png" alt="">
                     </div>
                 </div>
+                <div class="swiper-slide">
+                    <div class="img">
+                        <img src="img/36.png" alt="">
+                    </div>
+                </div>
             </div>
         </div>
 
@@ -494,3 +499,4 @@ $data_assets['js'] = [
 ];
 ?>
 <?php include_once('components/footer.php') ?>
+<a href=""></a>

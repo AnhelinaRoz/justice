@@ -317,7 +317,7 @@ $get_press_release = CustomQuery("SELECT * FROM `news` ORDER BY  `date` DESC LIM
                 </div>
                 <div class="swiper-slide">
                     <div class="img">
-                        <img src="img/29.png" alt="">
+                        <img src="img/37.png" alt="">
                     </div>
                 </div>
                 <div class="swiper-slide">
@@ -353,6 +353,26 @@ $get_press_release = CustomQuery("SELECT * FROM `news` ORDER BY  `date` DESC LIM
                 <div class="swiper-slide">
                     <div class="img">
                         <img src="img/36.png" alt="">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="img">
+                        <img src="img/38.png" alt="">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="img">
+                        <img src="img/39.png" alt="">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="img">
+                        <img src="img/40.png" alt="">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="img">
+                        <img src="img/41.png" alt="">
                     </div>
                 </div>
             </div>

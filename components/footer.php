@@ -7,7 +7,7 @@ global $data_assets;
         <div class="">
             <p class="p">Avenue Louis-Casaï 18, Genève, Geneva 1209, CH</p>
             <a class="mail" href="mailto:registry@jpti.ch">registry@jpti.ch</a>
-            <a class="local" href=""><img src="img/linkedin.svg" alt=""></a>
+            <a class="local" href="https://www.linkedin.com/company/justice-pour-tous-internationale/"><img src="img/linkedin.svg" alt=""></a>
         </div>
     </div>
     <div class="corp">

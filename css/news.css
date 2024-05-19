@@ -5,17 +5,28 @@
     background: #001D3B;
     color: white;
 }
-.content .content_block p{
-    font-size: 24px;
+.content .content_block p, 
+.content .content_block a, 
+.content .content_block li{
+    font-size: 16px;
+   font-family: Athelas, sans-serif;
+   margin-bottom: 20px;
 }
+
+.content .content_block ul{
+    margin-bottom: 30px;
+    margin-top: 30px;
+    margin-left: 40px;
+ }
+ .content .content_block li{
+    margin-bottom: 5px;
+ }
+  
 .content .content_block h2{
     font-size: 34px;
+    font-weight: 400;
+    margin-top: 20px;
 }
-
-.pdf{
-
-}
-
 
 
 @media screen and (max-width: 1000px) {

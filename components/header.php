@@ -28,3 +28,4 @@ $data_assets = $data_assets ?? [];
     <title><?= $title ?? $project_name ?? '' ?></title>
 </head>
 <body>
+<?php include("./components/nav_links.php") ?>

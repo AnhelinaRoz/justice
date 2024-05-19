@@ -49,7 +49,7 @@
             padding-top: 80px;
             padding-left: 34px;
             padding-bottom: 80px;
-
+            display: block;
             .a{
                 text-decoration: none;
                 font-size: 18px;

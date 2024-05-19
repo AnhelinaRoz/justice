@@ -12,18 +12,9 @@ $get_press_release = CustomQuery("SELECT * FROM `news` ORDER BY  `date` DESC LIM
 ?>
 
 <header class="header">
-    <div id="home" class="header_nav">
-        <div class="logo">
-            <img src="img/logo.png" alt="">
-        </div>
-        <?php include("./components/nav_links.php") ?>
-        <div class="donate">
-            <a href="https://www.gofundme.com/f/defend-the-defenders-freedom-and-justice?member=33198191&sharetype=teams&utm_campaign=p_na+share-sheet&utm_medium=copy_link&utm_source=customer¬">Donate</a>
-        </div>
-        <div class="burger" onclick="open_modal('burger_menu')">
-            <img src="img/Vector.svg" alt="">
-        </div>
-    </div>
+    
+        
+        
     <div class="header_content" id="home">
         <div class="bg"></div>
         <div class="text">
@@ -123,14 +114,6 @@ $get_press_release = CustomQuery("SELECT * FROM `news` ORDER BY  `date` DESC LIM
                 </div>
 
 
-            </div>
-            <div class="card team_3">
-                <div class="img"><img src="img/angelina.jpg" alt=""></div>
-                <div>
-                    <h3 class="h3">Anhelina Rozhkovan</h3>
-                    <p class="subtitle">Geneva, Switzerland</p>
-                    <p class="p">Anhelina bringing her exceptional skills in web development and design to the forefront of our digital initiatives. With a keen eye for aesthetics and functionality, Anhelina has expertly developed and designed our website, creating a user-friendly and visually appealing platform that effectively communicates our mission and engages our audience. Her technical prowess and creative vision ensure that our digital presence resonates with our supporters and amplifies our advocacy efforts.</p>
-                </div>
             </div>
         </div>
     </section>
@@ -473,7 +456,7 @@ $get_press_release = CustomQuery("SELECT * FROM `news` ORDER BY  `date` DESC LIM
             </form>
         </div>
     </section>
-    <section class="press_release" id="press_release" id="view_all" id="news" id="archive">
+    <section class="press_release" id="press_release">
         <h2>Press release</h2>
         <h3>News</h3>
         <div class="spisok">
@@ -502,7 +485,7 @@ $get_press_release = CustomQuery("SELECT * FROM `news` ORDER BY  `date` DESC LIM
                     </div>
                     <div class="swiper-slide">
                         <video controls class="video">
-                            <source src="img/videon2.mp4" type="video/mp4">
+                            <source src="img/video2.mp4" type="video/mp4">
                         </video>
                     </div>
                 </div>

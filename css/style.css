@@ -65,105 +65,12 @@ body::-webkit-scrollbar-thumb {
                 margin-top: 46px;
                 text-transform: uppercase;
                 background-color: #F6F6F6;
-                display:inline-block;
+                display: inline-block;
 
             }
         }
     }
-
-    .navigation {
-        list-style: none;
-        display: flex;
-        margin: 0;
-        padding: 0;
-    }
-
-    .navigation li {
-        position: relative;
-        padding: 15px 20px;
-    }
-
-    .navigation a {
-        color: white;
-        text-decoration: none;
-        display: block;
-        position: relative;
-        font-family: "Inter", sans-serif;
-    }
-
-    .dropdown {
-        position: relative;
-    }
-
-    .dropdown_content {
-        display: none;
-        position: absolute;
-        background-color: #001D3B;
-        min-width: 200px;
-        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-        z-index: 1;
-        padding: 10px 0;
-        left: 0;
-    }
-
-    .dropdown_content a {
-        color: white;
-        padding: 12px 16px;
-        text-decoration: none;
-        display: block;
-        white-space: nowrap;
-    }
-
-    .navigation .dropdown:hover .dropdown_content {
-        display: block;
-    }
-
-
-    .navigation .dropbtn::after {
-        content: '▼';
-        font-size: 12px;
-        position: absolute;
-        right: -15px;
-        top: 50%;
-        transform: translateY(-50%);
-    }
-
-    .donate a {
-        background-color: white;
-        color: #2a4360;
-        padding: 10px 20px;
-        text-decoration: none;
-        display: inline-block;
-        margin-left: 20px;
-    }
-
-    .donate a:hover {
-        background-color: white;
-    }
 }
-
-.header .logo img {
-    height: 50px;
-}
-
-.header .header_nav {
-    padding: 10px 33px;
-    background-color: #001D3B;
-    display: grid;
-    grid-template-columns: 1fr auto auto;
-    align-items: center;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 10;
-}
-
-.header .burger {
-    display: none;
-}
-
-
 /*--------*/
 .about {
     padding: 134px var(--padding_blocs) 86px;
@@ -172,9 +79,9 @@ body::-webkit-scrollbar-thumb {
 
     .title {
         max-width: 1920px;
-    margin: auto;
+        margin: auto;
         margin-bottom: 198px;
-        
+
 
         .h2 {
             color: white;
@@ -184,9 +91,11 @@ body::-webkit-scrollbar-thumb {
             font-size: 24px;
         }
     }
- .img img{
-object-fit: contain;
-        }
+
+    .img img {
+        object-fit: contain;
+    }
+
     .content_item {
         display: grid;
         grid-template-columns: 1fr auto 1fr;
@@ -399,6 +308,7 @@ object-fit: contain;
     flex-wrap: nowrap;
     max-width: 1920px;
     margin: auto;
+
     .slider {
         max-width: 70%;
         min-width: 520px;
@@ -492,7 +402,8 @@ object-fit: contain;
 
         &:nth-child(2) {
 
-            &:before, &:after {
+            &:before,
+            &:after {
                 content: '';
                 position: absolute;
                 height: 70px;
@@ -518,7 +429,8 @@ object-fit: contain;
     font-size: 75px;
 }
 
-.press_release h4, .press_release .h4 {
+.press_release h4,
+.press_release .h4 {
     display: -webkit-box;
     -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;
@@ -644,28 +556,20 @@ object-fit: contain;
 }
 
 @media screen and (min-width: 2000px) {
-    .slider_block .img{
-height: 900px;
+    .slider_block .img {
+        height: 900px;
     }
 }
-@media screen and (max-width: 1000px) {
 
-    .header .navigation li,
-    .header .header_nav .donate {
-        display: none;
-    }
-
-    .header .burger {
-        display: block;
-    }
-}
 
 
 @media screen and (max-width: 1000px) {
 
 
     .about {
-        .hr, .img {
+
+        .hr,
+        .img {
             display: none;
         }
 
@@ -745,7 +649,8 @@ height: 900px;
             height: 400px;
         }
 
-        .team_1, .team_3 {
+        .team_1,
+        .team_3 {
             flex-direction: column-reverse;
         }
 
@@ -771,7 +676,9 @@ height: 900px;
                 font-size: 20px;
 
                 &:nth-child(2) {
-                    &:before, &:after {
+
+                    &:before,
+                    &:after {
                         height: 50px;
                     }
                 }

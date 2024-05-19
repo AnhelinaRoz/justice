@@ -3,7 +3,7 @@ global $data_assets;
 ?>
 <footer class="footer">
     <div class="content_item">
-        <img src="./img/logo.png" alt="">
+        <a href="./index.php"><img src="./img/logo.png" alt=""></a>
         <div class="">
             <p class="p">Avenue Louis-Casaï 18, Genève, Geneva 1209, CH</p>
             <a class="mail" href="mailto:registry@jpti.ch">registry@jpti.ch</a>
@@ -12,7 +12,6 @@ global $data_assets;
     </div>
     <div class="corp">
         <p>Copyright © 2024</p>
-        <p>developed by: <a href="https://dreamsagency.net/">Dreams Agency</a></p>
     </div>
 </footer>
 <?php include_once('components/modals.php') ?>

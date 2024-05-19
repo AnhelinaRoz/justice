@@ -20,12 +20,13 @@ $get_press_release = CustomQuery("SELECT * FROM `news` $sort_sql ORDER BY `date`
 
 
 ?>
+
 <header class="header2">
     <div class="nav_top">
         <div class="bg"></div>
     </div>
     <div class="content">
-        <h1 class="h1">Press Released</h1>
+        <h1 class="h1">Press Release</h1>
     </div>
 </header>
 <main class="press_release-single">

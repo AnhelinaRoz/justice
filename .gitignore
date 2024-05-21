@@ -14,3 +14,5 @@ jsconfig.json
 .eslintrc.js
 .eslintignore
 php_scripts/env.php
+video
+video/
